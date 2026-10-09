@@ -1,9 +1,3 @@
-# Sistem Pengelolaan Bank (Banking System)
-
-Proyek ini merupakan implementasi sistem perbankan sederhana menggunakan bahasa pemrograman Java. Proyek ini dibuat untuk memperlihatkan perbedaan konsep, kelebihan, dan cara kerja antara **Array Biasa (Fixed-size Array)** dan **ArrayList (Dynamic Array)** dalam pengelolaan data koleksi (nasabah dan rekening).
-
----
-
 ## 📄 Struktur Berkas Project
 
 ```text
