@@ -1,11 +1,3 @@
-# Program Hirarki Bentuk Geometri (OOP Java)
-
-Proyek ini merupakan implementasi konsep **Object-Oriented Programming (OOP)** dalam bahasa Java, yang mensimulasikan pemodelan bangun datar dan bangun ruang melalui konsep **Pewarisan (Inheritance)**, **Enkapsulasi (Encapsulation)**, dan **Overriding Method**.
-
----
-
-## 📐 Struktur Berkas & Hirarki Kelas
-
 ### Struktur Berkas Project
 ```
 .
