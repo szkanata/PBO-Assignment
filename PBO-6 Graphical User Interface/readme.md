@@ -46,4 +46,58 @@ Program ini menggunakan beberapa komponen GUI berdasarkan fungsinya:
 
 ## Struktur Program
 
-Program terdiri dari satu class utama, yaitu `InformasiHewan`,
+Program terdiri dari satu class utama, yaitu `InformasiHewan`, yang memiliki beberapa bagian:
+
+1. **Deklarasi Komponen:** Mendeklarasikan tombol, label, dan komponen GUI lainnya.
+2. **Constructor:** Menginisialisasi jendela utama, membuat panel, mengatur layout, dan menambahkan komponen.
+3. **Event Listener:** Menangani klik pada setiap tombol hewan menggunakan `ActionListener`.
+4. **Method tampilkanInformasi():** Membuat jendela baru dan menampilkan informasi berdasarkan hewan yang dipilih.
+5. **Main Method:** Menjalankan aplikasi dan menampilkan jendela utama.
+
+## Cara Menjalankan Aplikasi
+
+### Persyaratan
+- Java Development Kit (JDK) telah terinstal.
+- IDE seperti Visual Studio Code, NetBeans, atau IntelliJ IDEA.
+
+### Langkah Menjalankan
+
+1. Pastikan file `InformasiHewan.java` tersedia.
+2. Buka terminal pada direktori tempat file disimpan.
+3. Compile program menggunakan perintah:
+
+   ```bash
+   javac InformasiHewan.java
+   ```
+
+4. Jalankan program menggunakan perintah:
+
+   ```bash
+   java InformasiHewan
+   ```
+
+5. Jendela utama aplikasi akan muncul.
+6. Tekan salah satu tombol nama hewan untuk membuka jendela informasi.
+
+## Cara Penggunaan
+
+1. Jalankan aplikasi Informasi Hewan.
+2. Pilih salah satu tombol hewan yang tersedia, yaitu Kucing, Anjing, Gajah, atau Singa.
+3. Aplikasi akan membuka jendela baru sesuai hewan yang dipilih.
+4. Baca informasi mengenai habitat, makanan, ciri-ciri, dan fakta menarik hewan tersebut.
+5. Tutup jendela informasi jika sudah selesai.
+6. Pilih hewan lainnya untuk melihat informasi yang berbeda.
+
+## Event Handling
+
+Aplikasi menggunakan interface `ActionListener` untuk menangani event ketika pengguna menekan tombol hewan.
+
+Method `actionPerformed(ActionEvent e)` di-override untuk menjalankan perintah ketika tombol ditekan.
+
+Setiap tombol memanggil method `tampilkanInformasi()` dengan dua parameter, yaitu nama hewan dan informasi mengenai hewan tersebut.
+
+Method tersebut kemudian membuat objek `JFrame` baru untuk menampilkan informasi yang dipilih.
+
+## Penutup
+
+Aplikasi Informasi Hewan merupakan contoh sederhana penerapan pemrograman berorientasi objek dan Java Swing dalam pembuatan Graphical User Interface (GUI). Melalui aplikasi ini, konsep Container, Atomic Component, Layout Manager, Interface, dan Event Listener dapat diterapkan dalam sebuah program yang interaktif.
